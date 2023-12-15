@@ -1,0 +1,120 @@
+.w-8{
+    width: 8rem;
+}
+
+.max-h-7{
+    max-height: 3rem;
+}
+
+.pl-4{
+    padding-left: 3rem;
+}
+.mr-3{
+    margin-right: 3rem;
+}
+
+
+.carousel-inner .carousel-item img {
+    object-fit: cover;
+    max-height: 35rem;
+}
+
+  
+.pr-3{
+    padding-right: 3rem;
+}
+
+
+.welcome{
+    padding-bottom: 4rem;
+    padding-top: 4rem
+}
+
+.card{
+    border: none;
+}
+
+.enroll{
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.w-70{
+    width: 80%;
+}
+
+
+
+@media(max-width:500px) {
+    .max-h-9{
+        max-height: 14rem;
+        
+    }
+}
+
+.main-content {
+    position: relative;
+}
+  
+.main-content::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+}
+  
+.main-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px;
+}
+
+.gallery .img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wrapper > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: dense;
+}
+
+.grid-wrapper .wide{
+    grid-column: span 2;
+}
+.grid-wrapper .tall{
+    grid-row: span 2;
+}
+.grid-wrapper .big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
