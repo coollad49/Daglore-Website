@@ -44,10 +44,9 @@
 }
 
 
-
-@media(max-width:500px) {
+@media(max-width:992px) {
     .max-h-9{
-        max-height: 14rem;
+        max-height: 24rem;
         
     }
 }
