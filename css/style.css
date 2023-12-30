@@ -158,7 +158,7 @@
 
 .inner{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -168,10 +168,18 @@
 
 @media (max-width: 415px) {
     iframe{
-        width: 300px;
+        width: 320px;
     }
     .w-10{
         width: 7rem;
     }
+ 
 
 }
+@media (max-width: 330px) {
+    .wrap{
+        word-break: break-all;
+        white-space: pre-wrap;
+    }
+}
+
