@@ -161,9 +161,6 @@
     grid-template-columns: 1fr 2fr;
 }
 
-.bg-img{
-    background-image: url('img/img1.jpg');
-}
 
 .ps-6{
     padding-left: 6rem;
