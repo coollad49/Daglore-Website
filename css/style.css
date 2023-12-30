@@ -151,3 +151,30 @@
 .m-md-8{
     margin: 8rem;
 }
+
+.w-10{
+    width: 10rem;
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bg-img{
+    background-image: url('img/img1.jpg');
+}
+
+.ps-6{
+    padding-left: 6rem;
+}
+
+@media (max-width: 415px) {
+    iframe{
+        width: 300px;
+    }
+    .w-10{
+        width: 7rem;
+    }
+
+}
