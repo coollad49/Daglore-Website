@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/daglorem/Daglore-Website
+    - /bin/cp -R images $DEPLOYPATH
