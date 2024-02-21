@@ -2,9 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/daglorem/repositories/Daglore-Website
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R files $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R files $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp admission.html $DEPLOYPATH
