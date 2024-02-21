@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/daglorem/Daglore-Website
+    - export DEPLOYPATH=/home/daglorem/repositories/Daglore-Website
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R files $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
