@@ -11,3 +11,4 @@ deployment:
     - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp google2fc3f94046a3a662.html $DEPLOYPATH
